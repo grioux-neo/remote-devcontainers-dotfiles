@@ -1,6 +1,3 @@
-alias :e="nvim"
-alias v="nvim"
-alias vim="nvim"
 alias Fmt=fmt # Used in Vim, as I mistype !fmt as !Fmt sometimes...
 
 alias grep='grep --color=always'
@@ -13,8 +10,7 @@ function as() {
 	git add $1
 	git status
 }
-alias cz="git cz -S"
-alias c="git commit -S"
+alias c="git commit"
 alias di="git diff"
 alias p="git push"
 alias P="git pull"
